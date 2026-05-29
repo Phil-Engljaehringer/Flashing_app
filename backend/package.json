@@ -1,0 +1,17 @@
+{
+  "name": "esc-configurator-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend — runs all ESC serial/protocol logic on the companion computer",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compare-versions": "^4.1.3",
+    "node-fetch": "^3.3.2",
+    "semver": "^7.5.4",
+    "serialport": "^12.0.0",
+    "ws": "^8.18.0"
+  }
+}
